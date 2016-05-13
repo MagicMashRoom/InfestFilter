@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen_sms_list_height" 
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/sms_button_flag"
+        android:layout_width="@dimen/dimen_list_button_size"
+        android:layout_height="@dimen/dimen_list_button_size"
+		android:layout_marginLeft="@dimen/dimen_list_button_margin"
+		android:layout_marginRight="@dimen/dimen_list_button_margin"
+		android:layout_gravity="center_vertical"
+        android:textColor="@color/color_white"
+		android:background="@drawable/flag"
+		android:focusable="false"
+		android:clickable="false"
+		android:focusableInTouchMode="false"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+  	    android:layout_height="@dimen/dimen_sms_list_height"
+  	    android:orientation="vertical">
+    <RelativeLayout
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    android:layout_marginTop="4dp"
+  	    android:orientation="horizontal">
+  	<TextView 
+		android:id="@+id/id_sms_list_item_name" 
+		android:layout_width="wrap_content"
+		android:layout_height="@dimen/dimen_sms_list_item_text_size"
+		android:gravity="center"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="@dimen/dimen_sms_list_item_left"
+		android:text=""
+		android:textSize="@dimen/dimen_sms_list_item_name_size" 
+		android:textColor="@color/color_small_black" 
+   		android:singleLine="true" />
+	<TextView 
+		android:id="@+id/id_sms_list_item_time" 
+		android:layout_width="wrap_content"
+		android:layout_height="@dimen/dimen_sms_list_item_text_size"
+		android:gravity="center"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="@dimen/dimen_sms_list_item_left"
+		android:textSize="@dimen/dimen_sms_list_item_name_size" 
+		android:textColor="@color/color_small_small_black"
+   		android:singleLine="true" /> 	
+  	</RelativeLayout>
+	<RelativeLayout
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    android:orientation="horizontal">
+	<TextView 
+		android:id="@+id/id_sms_list_item_content"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="@dimen/dimen_sms_list_item_left"
+		android:lines="2"
+		android:lineSpacingMultiplier="1.1"
+		android:ellipsize="end"
+		android:textSize="@dimen/dimen_sms_list_item_text_content_size"
+   		android:singleLine="false" />
+	</RelativeLayout> 
+    </LinearLayout>
+
+</LinearLayout>

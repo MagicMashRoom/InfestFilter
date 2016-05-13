@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#33a850</color>
+
+    <color name="color_small_black">#ff3c3c3c</color>
+    <color name="color_small_small_black">#ffa3a3a3</color>
+    <color name="color_title_green">#ff33A850</color>
+
+    <color name="color_transparent">#00000000</color>
+    <color name="color_black">#ff000000</color>
+    <color name="color_white">#ffffffff</color>
+    <color name="color_white_notrans">#ffffff</color>
+    <color name="color_gray">#ffcccccc</color>
+        <!-- 主界面颜色 -->
+    <color name="color_status_color">#33a850</color>
+    <color name="color_titlebar_color">#33a850</color>
+    <color name="color_titletext_color">#ffffffff</color>
+    <color name="color_tabbar_color">#009b00</color>
+    <color name="color_tabtext_color">#ffffffff</color>
+    <color name="color_tabtext_color_grey">#ccf1f1f1</color>
+    <color name="color_bottom_color">#fffefefe</color>
+    <color name="color_tab_divider_color">#ff009b48</color>
+        <!-- SmsFragment界面颜色 -->
+    <color name="color_sms_list_divider">#fff1f1f1</color>
+    <color name="switchbar_background_color">#ffffffff</color>
+
+        <!-- ListView界面颜色 -->
+        <!-- KeyWordListView界面颜色 -->
+    <color name="color_keyword_list_name">#ff1c1c1c</color>
+    <color name="color_keyword_list_divider">#ffcccccc</color>
+    <color name="foreground_material_dark">#dc2e2e</color>
+    <color name="colorBackground">#ff0000</color>
+    <!-- settings界面颜色 -->
+    <color name="color_settings_list_divider">#ebebeb</color>
+    <color name="color_settings_subtitle_color">#777777</color>
+</resources>

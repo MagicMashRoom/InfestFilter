@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 主界面尺寸 -->
+    <dimen name="dimen_titlebar_size">56dp</dimen>
+    <dimen name="dimen_titletext_size">24sp</dimen>
+
+    <dimen name="dimen_tabtext_size">16sp</dimen>
+    <dimen name="dimen_tabbar_size">32dp</dimen>
+
+    <dimen name="dimen_tabselect_width">120dp</dimen>
+    <dimen name="dimen_tabselect_height">6dp</dimen>
+
+    <!-- KeyWordListView尺寸 -->
+    <dimen name="dimen_keyword_list_height">48dp</dimen>
+    <dimen name="dimen_keyword_list_divider_height">0.5dp</dimen>
+    <dimen name="dimen_keyword_list_item_height">36dp</dimen>
+    <dimen name="dimen_keyword_list_item_width">72dp</dimen>
+    <dimen name="dimen_keyword_list_item_margin">6dp</dimen>
+    <dimen name="dimen_keyword_list_item_left">12dp</dimen>
+    <dimen name="dimen_keyword_list_item_name_size">14sp</dimen>
+    <dimen name="dimen_keyword_list_item_content_size">10sp</dimen>
+    <dimen name="dimen_keyword_list_item_text_size">24sp</dimen>
+    <!-- BlackListView尺寸 -->
+    <dimen name="dimen_black_list_height">72dp</dimen>
+    <dimen name="dimen_black_list_button_height">36dp</dimen>
+    <dimen name="dimen_black_list_button_width">72dp</dimen>
+    <dimen name="dimen_black_list_divider_height">0.5dp</dimen>
+    <dimen name="dimen_black_list_item_margin">16dp</dimen>
+    <dimen name="dimen_black_list_item_name_size">16sp</dimen>
+    <dimen name="dimen_black_list_item_content_size">14sp</dimen>
+    <dimen name="dimen_black_list_item_content_margin">10dp</dimen>
+    <!-- FragmentListView尺寸 -->
+    <dimen name="dimen_sms_list_height">72dp</dimen>
+    <dimen name="dimen_listview_margin">8dp</dimen>
+    <dimen name="dimen_sms_list_divider_height">0.5dp</dimen>
+    <dimen name="dimen_sms_list_item_left">12dp</dimen>
+    <dimen name="dimen_sms_list_item_name_size">14sp</dimen>
+    <dimen name="dimen_sms_list_item_content_size">10sp</dimen>
+    <dimen name="dimen_sms_list_item_content_margin">6dp</dimen>
+    <dimen name="dimen_sms_list_item_text_size">24sp</dimen>
+    <dimen name="dimen_list_button_size">18dp</dimen>
+    <dimen name="dimen_list_button_margin">22dp</dimen>
+    <dimen name="dimen_sms_list_item_text_content_size">13sp</dimen>
+    <!-- FragmentLayout尺寸 -->
+    <dimen name="dimen_layout_prompt_margintop">144dp</dimen>
+    <dimen name="dimen_layout_prompt_padding">32dp</dimen>
+    <dimen name="dimen_layout_prompt_text_margintop">28dp</dimen>
+    <dimen name="dimen_layout_prompt_text_size">16sp</dimen>
+    <dimen name="dimen_layout_bottom_height">72dp</dimen>
+    <dimen name="dimen_layout_bottom_margintop">4dp</dimen>
+    <dimen name="dimen_layout_bottom_image_size">24dp</dimen>
+    <dimen name="dimen_layout_bottom_image_margin">12dp</dimen>
+    <dimen name="dimen_layout_bottom_imagebig_size">48dp</dimen>
+    <dimen name="dimen_layout_bottom_settings_size">10sp</dimen>
+
+    <!-- CallListView尺寸 -->
+    <dimen name="dimen_call_list_height">72dp</dimen>
+    <dimen name="dimen_call_list_divider_height">0.5dp</dimen>
+    <dimen name="dimen_call_list_item_left">12dp</dimen>
+    <dimen name="dimen_call_list_item_name_size">14sp</dimen>
+    <dimen name="dimen_call_list_item_content_size">10sp</dimen>
+    <dimen name="dimen_call_list_item_content_margin">6dp</dimen>
+    <dimen name="dimen_call_list_item_text_size">24sp</dimen>
+
+    <dimen name="start_z">0dp</dimen>
+    <dimen name="end_z">8dp</dimen>
+    <!-- Settings尺寸 -->
+    <dimen name="dimen_settings_title_height">56dp</dimen>
+    <dimen name="dimen_settings_title_size">24sp</dimen>
+    <dimen name="dimen_settings_title_button_size">56dp</dimen>
+    <dimen name="dimen_settings_title_button_padding">10dp</dimen>
+    <dimen name="dimen_settings_title_button_margin">5dp</dimen>
+    <dimen name="dimen_settings_perference_height">64dp</dimen>
+    <dimen name="dimen_settings_perference_paddingleft">36dp</dimen>
+    <dimen name="dimen_settings_perference_title_size">16sp</dimen>
+    <dimen name="dimen_settings_perference_title_paddingtop">12dp</dimen>
+    <dimen name="dimen_settings_perference_title_paddingleft">36dp</dimen>
+    <dimen name="dimen_settings_perference_switchbutton">10dp</dimen>
+    <dimen name="dimen_settings_perference_divider_margin">8dp</dimen>
+    <dimen name="dimen_settings_enter_margin">36dp</dimen>
+    <dimen name="dimen_settings_enter_size">24dp</dimen>
+
+    <dimen name="dimen_settings_subtitle_size">12sp</dimen>
+    <dimen name="dimen_settings_subtitle_paddingtop">4dp</dimen>
+    <dimen name="dimen_settings_subtitle_paddingleft">36dp</dimen>
+    <!-- add选项相关尺寸 -->
+    <dimen name="dimen_add_title_size">20sp</dimen>
+
+    <dimen name="dimen_add_listview_margin">8dp</dimen>
+    <dimen name="dimen_add_listview_marginTop">8dp</dimen>
+    <dimen name="dimen_add_listview_marginLeft">24dp</dimen>
+    <dimen name="dimen_add_listview_height">56dp</dimen>
+
+    <dimen name="dimen_add_listview_bottom">56dp</dimen>
+    <dimen name="dimen_add_listview_bottom_button">55dp</dimen>
+    <dimen name="dimen_add_listview_bottom_divider">1dp</dimen>
+    <dimen name="dimen_add_listview_bottom_margin">20dp</dimen>
+
+    <dimen name="dimen_add_listview_checkbox_marginTop">12dp</dimen>
+    <dimen name="dimen_add_listview_checkbox_marginRight">24dp</dimen>
+
+    <dimen name="dimen_add_listview_title_size">16sp</dimen>
+    <dimen name="dimen_add_listview_subtitle_size">14sp</dimen>
+    <dimen name="dimen_add_listview_title_margin">12dp</dimen>
+    <dimen name="dimen_add_byhand_edittext_margin">8dp</dimen>
+
+    <dimen name="dimen_add_listview_subtitle_margin">4dp</dimen>
+
+    <!-- popupwindow选项相关尺寸 -->
+    <dimen name="dimen_popupwindow_height">56dp</dimen>
+    <dimen name="dimen_popupwindow_title_size">20sp</dimen>
+    <dimen name="dimen_popupwindow_subtitle_size">16sp</dimen>
+    <dimen name="dimen_popupwindow_title_margin">24dp</dimen>
+    <dimen name="dimen_popupwindow_divider_margin">12dp</dimen>
+
+    <dimen name="dimen_popupwindow_divider_height">0.1dp</dimen>
+    <dimen name="dimen_popupwindow_cancel_height">54dp</dimen>
+    <dimen name="dimen_popupwindow_cancel_margin">20dp</dimen>
+    <dimen name="dimen_popupwindow_cancel_size">16sp</dimen>
+
+
+</resources>
+

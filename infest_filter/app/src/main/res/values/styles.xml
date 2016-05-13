@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorForeground">@color/color_tabbar_color</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="FilterMainTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:statusBarColor">@color/color_status_color</item>
+    </style>
+    <style name="MaterialDesign">
+        <item name="animationVelocity">5</item>
+        <item name="insetBottom">10dp</item>
+        <item name="insetTop">10dp</item>
+        <item name="insetLeft">10dp</item>
+        <item name="insetRight">10dp</item>
+        <item name="measureFactor">1.5</item>
+        <item name="offDrawable">@drawable/md_switch_off</item>
+        <item name="onDrawable">@drawable/md_switch_on</item>
+        <item name="thumbDrawable">@drawable/md_thumb</item>
+        <item name="thumb_margin">-12dp</item>
+        <item name="thumbColor">@color/color_tabbar_color</item>
+    </style>
+
+    <style name="MaterialDesignStyle" parent="MaterialDesign">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+
+
+    <!-- 黑名单弹出菜单风格 -->
+    <style name="PopupWindowAnim"  parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_window_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_window_out</item>
+    </style>
+
+</resources>

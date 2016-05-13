@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Infest Filter</string>
+    <!-- 主界面文字 -->
+    <string name="AppTitle">InfestFilter</string>
+    <string name="AppTabCall">Call</string>
+    <string name="AppTabSms">Sms</string>
+    <string name="AppTabBlackList">Black</string>
+    <string name="str_text_null"></string>
+    <string name="str_bottom_settings">Settings</string>
+    <string name="str_bottom_add">Add</string>
+    <string name="str_button_delete">Delete</string>
+    <string name="str_no_sms">Great,Have not yet harassing SMS records</string>
+    <string name="str_no_call">Great,Have not yet harassing CALL records</string>
+    <string name="str_no_black">Add the number to the blacklist</string>
+    <string name="str_no_keyword">You have no Keyword</string>
+    <string name="str_no_open_keyword">You closed keyword infest</string>
+    <!-- 设置界面文字 -->
+    <string name="string_settings_title_name">Infest Settings</string>
+    <string name="string_settings_preference_black">BlackList Infest</string>
+    <string name="string_settings_preference_keyword">Keyword Infest</string>
+    <string name="string_settings_preference_callback">Callback Infest</string>
+    <string name="string_settings_preference_strangesms">Strange number SMS Infest</string>
+    <string name="string_settings_preference_strangecall">Strange number CALL Infest</string>
+    <string name="string_settings_preference_infestnotify">Infest Notification</string>
+    <string name="string_settings_preference_keywordsettings">Keyword Settings</string>
+    <string name="string_settings_preference_keywordadd">Add Keyword</string>
+    <string name="string_settings_preference_keywordinfest">Keyword Infest</string>
+    <string name="string_settings_preference_callbacksettings">Callback Infest Settings</string>
+    <string name="string_settings_preference_subtitle_mang">Return Busy</string>
+    <string name="string_settings_preference_subtitle_poweroff">Return PowerOff</string>
+    <string name="string_settings_preference_subtitle_ting">Return Stop</string>
+    <string name="string_settings_preference_subtitle_null">Return Null Number</string>
+    <string name="string_settings_preference_subtitle_open">Opened</string>
+    <string name="string_settings_preference_subtitle_close">Closed</string>
+
+    <string name="string_add_by_some_sure">Sure</string>
+    <string name="string_add_by_calllog_title">Add By Calllog</string>
+    <string name="string_add_by_calllog_notitle">You have no calllog</string>
+    <string name="string_add_by_calllog_inittitle">Init Calllog ...</string>
+
+    <string name="string_add_by_contacts_title">Add By Contacts</string>
+    <string name="string_add_by_contacts_notitle">Your contacts are absolutely empty</string>
+    <string name="string_add_by_contacts_inittitle">Init Contacts ...</string>
+
+    <string name="string_add_by_hand_title">Manual Input Block Number</string>
+    <string name="string_add_by_hand_edit_name">Name</string>
+    <string name="string_add_by_hand_edit_number">Number</string>
+
+    <string name="string_add_by_sms_title">Add By SMS</string>
+    <string name="string_add_by_sms_notitle">Your SMS are absolutely empty</string>
+    <string name="string_add_by_sms_inittitle">Init SMS Inbox ...</string>
+
+    <string name="string_popupwindow_title">Add Blacklist</string>
+    <string name="string_popupwindow_title_hand">Manual Input Block Number</string>
+    <string name="string_popupwindow_title_cancel">Cancel</string>
+
+</resources>

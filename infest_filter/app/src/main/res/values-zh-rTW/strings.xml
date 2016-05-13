@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">攔截助手</string>
+    <!-- 主界面文字 -->
+    <string name="AppTitle">攔截助手</string>
+    <string name="AppTabCall">來電</string>
+    <string name="AppTabSms">短信</string>
+    <string name="AppTabBlackList">黑名單</string>
+    <string name="str_text_null"></string>
+    <string name="str_bottom_settings">設置</string>
+    <string name="str_bottom_add">添加</string>
+    <string name="str_button_delete">刪除</string>
+    <string name="str_no_sms">太棒了，還沒有騷擾短信記錄</string>
+    <string name="str_no_call">太棒了，還沒有騷擾來電記錄</string>
+    <string name="str_no_black">添加號碼到黑名單，就可以不受騷擾了</string>
+    <string name="str_no_keyword">您還沒有關鍵詞呢</string>
+    <string name="str_no_open_keyword">您還沒開啟關鍵詞攔截</string>
+    <!-- 设置界面文字 -->
+    <string name="string_settings_title_name">攔截設置</string>
+    <string name="string_settings_preference_black">黑名單攔截</string>
+    <string name="string_settings_preference_keyword">關鍵詞攔截</string>
+    <string name="string_settings_preference_callback">電話攔截返回音</string>
+    <string name="string_settings_preference_strangesms">陌生號碼短信攔截</string>
+    <string name="string_settings_preference_strangecall">陌生號碼短信攔截</string>
+    <string name="string_settings_preference_infestnotify">攔截提醒</string>
+    <string name="string_settings_preference_keywordsettings">關鍵字設置</string>
+    <string name="string_settings_preference_keywordadd">添加關鍵字</string>
+    <string name="string_settings_preference_keywordinfest">關鍵詞攔截</string>
+    <string name="string_settings_preference_callbacksettings">電話攔截返回音設置</string>
+    <string name="string_settings_preference_subtitle_mang">返回忙音</string>
+    <string name="string_settings_preference_subtitle_poweroff">返回已關機</string>
+    <string name="string_settings_preference_subtitle_ting">返回停機</string>
+    <string name="string_settings_preference_subtitle_null">返回空號</string>
+    <string name="string_settings_preference_subtitle_open">已開啟</string>
+    <string name="string_settings_preference_subtitle_close">已關閉</string>
+
+    <string name="string_add_by_some_sure">確定</string>
+    <string name="string_add_by_calllog_title">從通話記錄添加</string>
+    <string name="string_add_by_calllog_notitle">您還沒有通話記錄呢</string>
+    <string name="string_add_by_calllog_inittitle">正在為您初始化通話記錄呢</string>
+
+    <string name="string_add_by_contacts_title">從通訊錄添加</string>
+    <string name="string_add_by_contacts_notitle">您的聯繫人空空如也</string>
+    <string name="string_add_by_contacts_inittitle">正在為您初始化聯繫人...</string>
+
+    <string name="string_add_by_hand_title">手動輸入攔截號碼</string>
+    <string name="string_add_by_hand_edit_name">姓名</string>
+    <string name="string_add_by_hand_edit_number">號碼</string>
+
+    <string name="string_add_by_sms_title">從短信列表添加</string>
+    <string name="string_add_by_sms_notitle">您的收件箱空空如也</string>
+    <string name="string_add_by_sms_inittitle">正在為您初始化短信列表...</string>
+
+    <string name="string_popupwindow_title">添加黑名單</string>
+    <string name="string_popupwindow_title_hand">手動輸入攔截號碼</string>
+    <string name="string_popupwindow_title_cancel">取消</string>
+
+</resources>

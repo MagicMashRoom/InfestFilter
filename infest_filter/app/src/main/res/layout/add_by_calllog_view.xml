@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:background="@color/color_status_color"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/id_bycalllog_back"
+                android:layout_width="@dimen/dimen_settings_title_height"
+                android:layout_height="@dimen/dimen_settings_title_height"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dimen_settings_title_button_margin"
+                android:background="@drawable/md_back"
+                android:padding="@dimen/dimen_settings_title_button_padding" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:text="@string/string_add_by_calllog_title"
+                android:textColor="@color/color_titletext_color"
+                android:textSize="@dimen/dimen_add_title_size" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/id_addcallog_list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="@dimen/dimen_add_listview_margin"
+            android:layout_marginRight="@dimen/dimen_add_listview_margin"
+            android:visibility="gone"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/color_sms_list_divider"
+            android:dividerHeight="@dimen/dimen_black_list_divider_height"
+            android:drawSelectorOnTop="false"
+            />
+        <TextView
+            android:id="@+id/id_addcalllog_empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1.0"
+            android:visibility="gone"
+            android:text="@string/string_add_by_calllog_notitle"
+            android:textSize="@dimen/dimen_add_title_size"
+            android:textColor="@color/color_small_black"
+            android:gravity="center"/>
+    <RelativeLayout
+        android:id="@+id/id_addcalllog_init_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="visible">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/loadingpage_bg"
+            android:indeterminateDrawable="@drawable/animdraw"
+            android:indeterminateDuration="1500" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_add_listview_bottom"
+        android:orientation="vertical"
+        android:background="@color/color_white_notrans">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_add_listview_bottom_divider"
+            android:background="@color/color_settings_list_divider" />
+        <Button
+            android:id="@+id/add_by_calllog_ok"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_add_listview_bottom_button"
+            android:layout_marginLeft="@dimen/dimen_add_listview_bottom_margin"
+            android:layout_marginRight="@dimen/dimen_add_listview_bottom_margin"
+            android:backgroundTint="@color/color_titlebar_color"
+            android:colorControlHighlight="@color/color_tabbar_color"
+            android:backgroundTintMode="src_over"
+            android:text="@string/string_add_by_some_sure"
+            android:textColor="@color/color_tabtext_color"
+            android:textSize="@dimen/dimen_add_title_size"/>
+
+    </LinearLayout>
+</LinearLayout>

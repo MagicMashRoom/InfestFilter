@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="@dimen/dimen_add_listview_marginTop"
+        android:layout_marginLeft="@dimen/dimen_add_listview_marginLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_add_listview_height"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/id_add_by_calllog_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/dimen_add_listview_title_size"
+            android:textColor="@color/color_small_black"/>
+        <TextView
+            android:id="@+id/id_add_by_calllog_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_add_listview_subtitle_margin"
+            android:textSize="@dimen/dimen_add_listview_subtitle_size"
+            android:textColor="@color/color_small_small_black"/>
+    </LinearLayout>
+    <CheckBox
+        android:layout_marginTop="@dimen/dimen_add_listview_checkbox_marginTop"
+        android:layout_marginRight="@dimen/dimen_add_listview_checkbox_marginRight"
+        android:id="@+id/id_add_by_calllog_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:checked="false" />
+</RelativeLayout>

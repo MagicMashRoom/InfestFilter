@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.call_sms.infest_filter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS"/><!-- 添加操作联系人的权限 -->
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />  <!-- 添加操作通话记录的权限 -->
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" /> <!-- 添加操作通话记录的权限 -->
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/><!-- 添加通话的权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-feature android:name="android.hardware.telephony" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />   <!-- 添加接收短信的权限 -->
+    <uses-permission android:name="android.permission.READ_SMS" />  <!-- 添加读取短信信息的权限 -->
+    <uses-permssion android:name="android.permission.WRITE_SMS" /> <!-- 添加删除短信的权限-->
+
+    <uses-permission android:name="android.permission.INTERNET"/><!-- 连接网络的权限-->
+
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"></uses-permission>
+	
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="com.call_sms.infest_filter.FilterApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".FilterMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FilterMainTheme"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FilterSettingsActivity"
+            android:theme="@style/FilterMainTheme"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.call_sms.settings.CallBackFilterSettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FilterMainTheme"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.call_sms.settings.KeywordFilterSettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FilterMainTheme"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.call_sms.core.InfestContentCallActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FilterMainTheme"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.call_sms.core.InfestContentSmsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FilterMainTheme"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.call_sms.ui.AddByHandInfestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FilterMainTheme"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.call_sms.ui.AddByCalllogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FilterMainTheme"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.call_sms.ui.AddByContactsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FilterMainTheme"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.call_sms.ui.AddBySmsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FilterMainTheme"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.call_sms.ui.AddKeywordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FilterMainTheme"
+            android:label="@string/app_name" >
+        </activity>
+
+        <receiver android:name="com.call_sms.core.PhoneStateReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.PHONE_STATE" />
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 拦截电话服务 -->
+        <service android:enabled="true" android:name="com.call_sms.core.CallFilterService">
+            <intent-filter>
+                <action android:name="com.call_sms.core.CallFilterService.start" />
+            </intent-filter>
+        </service>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
+

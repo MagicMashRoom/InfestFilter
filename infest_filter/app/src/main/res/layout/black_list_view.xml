@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_black_list_height"
+    android:orientation="horizontal">
+    <LinearLayout 
+        android:layout_width="wrap_content"
+  	    android:layout_height="@dimen/dimen_black_list_height"
+		android:layout_marginLeft="@dimen/dimen_black_list_item_margin"
+  	    android:layout_alignParentLeft="true"
+  	    android:orientation="vertical">
+  	<TextView 
+		android:id="@+id/id_black_list_item_name"
+		android:layout_width="wrap_content"
+		android:layout_height="@dimen/dimen_keyword_list_item_text_size"
+		android:layout_marginTop="@dimen/dimen_black_list_item_content_margin"
+		android:gravity="center"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="@dimen/dimen_black_list_item_margin"
+		android:text="sncia"
+		android:textSize="@dimen/dimen_black_list_item_name_size" 
+		android:textColor="@color/color_small_black" 
+   		android:singleLine="true" />  
+	<TextView 
+		android:id="@+id/id_black_list_item_number"
+		android:layout_width="wrap_content"
+		android:layout_height="@dimen/dimen_keyword_list_item_text_size"
+		android:layout_marginTop="@dimen/dimen_keyword_list_item_margin"
+		android:layout_marginBottom="@dimen/dimen_keyword_list_item_margin"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="@dimen/dimen_black_list_item_margin"
+		android:text="asdasd"
+		android:textSize="@dimen/dimen_black_list_item_content_size"
+		android:textColor="@color/color_small_black" 
+   		android:singleLine="true" />
+
+    </LinearLayout>
+    <Button
+		android:id="@+id/id_black_list_item_delete"
+        android:layout_width="@dimen/dimen_black_list_button_width"
+        android:layout_height="@dimen/dimen_black_list_button_height"
+		android:layout_marginRight="@dimen/dimen_black_list_item_margin"
+        android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:text="@string/str_button_delete"
+		android:textColor="@color/color_white"
+		android:background="@drawable/btn_bg_ripple"/>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:minHeight="@dimen/dimen_keyword_list_height" >
+  	
+	<TextView 
+		android:id="@+id/id_keyword_list_item_name" 
+		android:layout_width="180dp"
+		android:layout_height="@dimen/dimen_keyword_list_item_height"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="@dimen/dimen_keyword_list_item_left"
+		android:gravity="center"
+		android:textSize="@dimen/dimen_keyword_list_item_name_size"
+		android:textColor="@color/color_small_black" 
+   		android:singleLine="true" />
+
+	<Button
+	    android:id="@+id/keyword_delete_button"
+		android:layout_width="@dimen/dimen_black_list_button_width"
+		android:layout_height="@dimen/dimen_black_list_button_height"
+		android:layout_marginRight="@dimen/dimen_black_list_item_margin"
+		android:layout_marginTop="@dimen/dimen_black_list_item_margin"
+		android:layout_marginBottom="@dimen/dimen_black_list_item_margin"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:text="@string/str_button_delete"
+		android:textColor="@color/color_white"
+		android:background="@drawable/btn_bg_ripple" />
+	
+</RelativeLayout>
